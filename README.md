@@ -34,4 +34,4 @@ USER stories
 
 ** User Story 3:** As a user who has been redirected to a new page, I want to see the band picture I had chosen on the new page and I want to see their year formed and best selling album info
 
-Cool beans! Let´s do this ! 
+Cool beans! Let´s do this ! We got this!
