@@ -6,7 +6,7 @@ module.exports = {
 }
 
 function getBandsData (callback) {
-  const filepath = path.join(__dirname, 'data.json')
+  const filepath = path.join(__dirname, 'data.json') // will need a band data object 
   fs.readFile(filepath, 'utf-8', (err, contents) => {
     if (err) {
       callback(new Error(err.message))
