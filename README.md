@@ -26,4 +26,12 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:
 
 5. The repos has a folder for images and any resource we would be needing tomorrow. Feel free to add folders as needed whether needed on the front end or back end.
 
+USER stories
+
+** User Story 1:** As a user I want to visit www.NAME_OF_YOUR_APP.herokuapp.com and see a welcome message describing the app and four?? band images
+
+** User Story 2:** As a user who is on the home page, I want to be told what to do with the band images (i.e. click on the image to xyz) and I when I follow the instructions I want to be redirected to a new page
+
+** User Story 3:** As a user who has been redirected to a new page, I want to see the band picture I had chosen on the new page and I want to see their year formed and best selling album info
+
 Cool beans! Let´s do this ! 
