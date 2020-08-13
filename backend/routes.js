@@ -6,29 +6,28 @@ const router = express.Router()
 module.exports = router
 
 router.get('/', (req, res) => {
-  res.send('pupparazzi')
+  res.send('bandkpedia')
 })
 
-router.get('/puppies', (req, res) => {
-  utils.getPuppiesData((err, puppiesData) => {
+router.get('/bands', (req, res) => { // router to server page??
     if (err) {
       res.status(500).send('Ohh!' + err.message)
     } else {
-      res.render('puppies/index', puppiesData)
+      res.render('bands/index', bandData) // get the bandData and render it to the index page (this is the main/first page user sees)
     }
   })
-})
 
-router.get('/puppies/:id', (req, res) => {
 
-  const id = parseInt(req.params.id)
+router.get('/bands/:id', (req, res) => { // navigating to individual band page
+
+  const id = parseInt(req.params.id) // grab the object
   
-  utils.getPuppiesData((err, puppiesData) => {
+  utils.getBandsData((err, bandsData) => {
     if (err) {
       res.status(500).send('There is an error: ' + err.message)
     } else {
-      const grabThePuppy = puppiesData.puppies.find(dog => dog.id === id)
-      res.render('puppies/view', grabThePuppy)
+      const grabTheBand = bandsData.bands.find(band => band.id === id) // get the id of the band
+      res.render('bands/view', grabTheBand) // get the data of the band anf render it to the views page
     }
   })
 })

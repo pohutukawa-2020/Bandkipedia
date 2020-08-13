@@ -12,7 +12,7 @@ server.set('view engine', 'hbs')
 server.use(express.static('public'))
 server.use(express.urlencoded({extended: false}))
 server.use('/', routes)
-server.use('/puppies', routes)
-server.use('/puppies/:id', routes)
+server.use('/bands', routes)
+server.use('/bands/:id', routes)
 
 module.exports = server
