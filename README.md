@@ -1,6 +1,17 @@
-# bandkipedia
+# Bandkipedia
 
 MVP - Creating a website which would provide an option of different bands, with the possibility of getting more information on their albums, the date the band formed and their best songs.
+
+Team and roles -
+Kyle - Scrum master and will be working on frontend
+
+Daryl - Vibewatcher and will be working on backend
+
+Rafael - Product owner and will be working on backend
+
+Marika - Support on backend or frontend
+
+Tatiana - Git master and will be working on frontend
 
 Repo installation -
 1. The master branch has been protected, to avoid any confusion for the team while pushing and pulling data from and to the master branch. In saying so, each commit will need a pull request, which has to be reviewed by any member of the team, prior to merging it to the master branch.
