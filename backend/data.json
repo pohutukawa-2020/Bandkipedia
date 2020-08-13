@@ -1,3 +1,72 @@
 [
-    {"id":1,
-    "name":"Fido","owner":"Person","image":"/images/puppy1.jpg","breed":"Labrador"},{"id":2,"name":"Fido Dido","owner":"Princess Carol","image":"/images/puppy2.jpg","breed":"Labrador"},{"id":3,"name":"Magnum","owner":"Esther","image":"/images/puppy3.jpg","breed":"Rottweiler"},{"id":4,"name":"Fido","breed":"Labrador","owner":"Person","image":"/images/puppy4.jpg"},{"id":5,"name":"Fido","breed":"Labrador","owner":"Person","image":"/images/puppy5.png"},{"id":6,"name":"Fido","owner":"Person","image":"/images/puppy6.jpg","breed":"Labrador"}]
+    {
+    "id":1,
+    "band name":"Band of Horses",
+    "year formed":"formed in 2004 in Seattle by Ben Bridwell",
+    "albums": "Infinite Arms"
+    // "images":
+    // "optional info":
+    },
+
+    {
+    "id":2,
+    "band name":"NxWorries",
+    "year formed":"formed in 2015 on Stones Throw Records' SoundCloud page",
+    "albums": "Suede"
+    // "images":
+    // "optional info":
+    },
+    
+    {
+    "id":3,
+    "band name":"Team Dynamite",
+    "year formed":"formed in 2009"
+    //"albums": 
+    // "images":
+    // "optional info":
+    }
+
+    {
+        "id":4,
+        "band name":"Foals",
+        "year formed":"English rock band from Oxford, formed in 2005"
+        //"albums": 
+        // "images":
+        // "optional info":
+        }
+   
+        {
+            "id":5,
+            "band name":"Red Hot chilli peppers",
+            "year formed":"American rock band formed in Los Angeles in 1983"
+            //"albums": 
+            // "images":
+            // "optional info":
+            }
+       
+            {
+                "id":6,
+                "band name":"ACDC",
+                "year formed":"Australian rock band formed in Sydney in 1973"
+                //"albums": 
+                // "images":
+                // "optional info":
+                }
+               
+                {
+                    "id":7,
+                    "band name":"Blink 182",
+                    "year formed":"American rock band formed in Poway, California in 1992"
+                    //"albums": 
+                    // "images":
+                    // "optional info":
+                    }
+                    {
+                        "id":8,
+                        "band name":"guns and roses",
+                        "year formed":"American hard rock band from Los Angeles, California, formed in 1985"
+                        //"albums": 
+                        // "images":
+                        // "optional info":
+                        }
+        
