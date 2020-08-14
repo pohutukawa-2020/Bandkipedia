@@ -1,23 +1,35 @@
 {
-  "name": "bandkipedia",
-  "version": "1.0.0",
-  "description": "",
+  "name": "bankipedia",
+  "version": "1.0.1",
+  "description": "Challenge to learn server side rendering and callbacks",
   "main": "index.js",
+  "author": "EDA",
+  "license": "ISC",
   "scripts": {
-    "start": "node .",
-    "test": "jest"
+    "start": "node index",
+    "dev": "nodemon --inspect index --ignore data.json",
+    "test": "jest --watchAll --noStackTrace"
   },
+  "homepage": "https://github.com/pohutukawa-2020/bandkipedia#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pohutukawa-2020/bandkipedia.git"
   },
-  "author": "tatiana-bernon",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/pohutukawa-2020/bandkipedia/issues"
   },
-  "homepage": "https://github.com/pohutukawa-2020/bandkipedia#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4"
+  },
   "devDependencies": {
-    "jest": "^26.4.0"
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "data.json"
+    ]
   }
 }

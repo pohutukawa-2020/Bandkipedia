@@ -10,14 +10,14 @@ router.get('/', (req, res) => {
 })
 
 router.get('/bands', (req, res) => { // router to server page??
+  utils.getBandsData((err, bandsData) => {
     if (err) {
       res.status(500).send('Ohh!' + err.message)
     } else {
-      res.render('bands/index', bandData) // get the bandData and render it to the index page (this is the main/first page user sees)
+      res.render('bands/index', bandsData)
     }
   })
-
-
+})
 router.get('/bands/:id', (req, res) => { // navigating to individual band page
 
   const id = parseInt(req.params.id) // grab the object
