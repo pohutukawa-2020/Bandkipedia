@@ -1,18 +1,14 @@
 <form class="form" action="/bands/edit/{{id}}" method="post">
   <img class="img-circle" src="{{image}}" alt="{{name}}">
-  <label for="name" class="form-item">
-    Name:
+  
+  <label for="band name" class="form-item">
+    Band Name:
     <input type="text" name="name" value="{{name}}">
   </label>
   
-  <label for="breed" class="form-item">
-    Breed:
-    <input type="text" name="breed" value="{{breed}}">
-  </label>
-  
-  <label for="owner" class="form-item">
-    Owner:
-    <input type="text" name="owner" value="{{owner}}">
+  <label for="year formed" class="form-item">
+    Year formed:
+    <input type="text" name="breed" value="{{year}}">
   </label>
   
   <input type="hidden" name="image" value="{{image}}">
