@@ -1,23 +1,26 @@
 {
-  "name": "bandkipedia",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node .",
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pohutukawa-2020/bandkipedia.git"
-  },
-  "author": "tatiana-bernon",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pohutukawa-2020/bandkipedia/issues"
-  },
-  "homepage": "https://github.com/pohutukawa-2020/bandkipedia#readme",
-  "devDependencies": {
-    "jest": "^26.4.0"
-  }
+    "name": "bandkipedia",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pohutukawa-2020/bandkipedia.git"
+    },
+    "author": "tatiana-bernon",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pohutukawa-2020/bandkipedia/issues"
+    },
+    "homepage": "https://github.com/pohutukawa-2020/bandkipedia#readme",
+    "devDependencies": {
+        "jest": "^26.4.0"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
