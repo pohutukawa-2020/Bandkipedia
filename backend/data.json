@@ -1,4 +1,5 @@
 [
+
     {
     "id":1,
     "band name":"Band of Horses",
@@ -27,46 +28,94 @@
     }
 
     {
-        "id":4,
-        "band name":"Foals",
-        "year formed":"English rock band from Oxford, formed in 2005"
-        //"albums": 
-        // "images":
-        // "optional info":
-        }
+    "id":4,
+    "band name":"Foals",
+    "year formed":"English rock band from Oxford, formed in 2005"
+    //"albums": 
+    // "images":
+    // "optional info":
+    }
    
-        {
-            "id":5,
-            "band name":"Red Hot chilli peppers",
-            "year formed":"American rock band formed in Los Angeles in 1983"
-            //"albums": 
-            // "images":
-            // "optional info":
-            }
+    {
+    "id":5,
+    "band name":"Red Hot chilli peppers",
+    "year formed":"American rock band formed in Los Angeles in 1983"
+    //"albums": 
+    // "images":
+    // "optional info":
+    }
        
-            {
-                "id":6,
-                "band name":"ACDC",
-                "year formed":"Australian rock band formed in Sydney in 1973"
-                //"albums": 
-                // "images":
-                // "optional info":
+    {
+    "id":6,
+    "band name":"ACDC",
+    "year formed":"Australian rock band formed in Sydney in 1973"
+    //"albums": 
+    // "images":
+    // "optional info":
                 }
                
-                {
-                    "id":7,
-                    "band name":"Blink 182",
-                    "year formed":"American rock band formed in Poway, California in 1992"
-                    //"albums": 
-                    // "images":
-                    // "optional info":
-                    }
-                    {
-                        "id":8,
-                        "band name":"guns and roses",
-                        "year formed":"American hard rock band from Los Angeles, California, formed in 1985"
-                        //"albums": 
-                        // "images":
-                        // "optional info":
-                        }
+    {
+    "id":7,
+    "band name":"Blink 182",
+    "year formed":"American rock band formed in Poway, California in 1992"
+    //"albums": 
+    // "images":
+    // "optional info":
+    }
+                    
+    {
+    "id":8,
+    "band name":"guns and roses",
+    "year formed":"American hard rock band from Los Angeles, California, formed in 1985"
+    //"albums": 
+    // "images":
+    // "optional info":
+    }
+
+    {
+    "id":9,
+    "band name":"U2",
+    "year formed":"Irish rock band from Dublin, formed in 1976"
+    //"albums": 
+    // "images":
+    // "optional info":
+                            }
+    
+    {
+    "id":10,
+    "band name":"coldplay",
+    "year formed":"British rock band that were formed in London in 1996."
+    //"albums": 
+    // "images":
+    // "optional info":
+    }
+
+    {
+    "id":11,
+    "band name":"Oasis",
+    "year formed":"British rock band that were formed in London in 1996."
+    //"albums": 
+    // "images":
+    // "optional info":
+    }
+
+    {
+    "id":12,
+    "band name":"Oasis",
+    "year formed":"British rock band that were formed in London in 1996."
+    //"albums": 
+    // "images":
+    // "optional info":
+    }
+
+    {
+    "id":13,
+    "band name":"Pink Floyd",
+    "year formed":"English rock band formed in London in 1965."
+     //"albums": 
+    // "images":
+    // "optional info":
+    }   
+                
+            
         
